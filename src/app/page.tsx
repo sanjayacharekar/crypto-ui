@@ -7,7 +7,7 @@ import RestoreIcon from '@mui/icons-material/Restore';
 import Card from "./component/Card";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start space-y-5 p-5 sm:p-24">
+    <main className="flex min-h-screen flex-col items-center justify-start space-y-5 p-5 sm:p-20 flex-wrap ">
       <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex sm:justify-between ">
 
         <span className="inline-flex items-center rounded-full bg-gray-50 pr-5 py-1 text-[#280e5f] ring-1 ring-inset ring-gray-500/10 drop-shadow-md ">

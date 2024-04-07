@@ -6,7 +6,7 @@ import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 function Card() {
     return (
-        <div className='flex justify-center items-center gap-2 flex-col sm:flex-row'>
+        <div className='flex flex-wrap overflow-auto justify-center items-center gap-2 flex-col sm:flex-row'>
             {/* disabled card */}
             <div className=" opacity-75 bg-white border border-[#dadbe8] border-b-4 rounded-2xl shadow drop-shadow-md">
                 {/* card header  */}
